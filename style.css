@@ -1,0 +1,62 @@
+/**
+ * @license
+ * Copyright 2019 Google LLC. All Rights Reserved.
+ * SPDX-License-Identifier: Apache-2.0
+ */
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+label, h3 {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: large;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 0.25rem;
+  box-sizing: border-box;
+  font-size: larger;
+}
+
+
+.markerTitle {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 120px;
+	margin-top: -12px;
+	transform: translateY(100%);
+	color: #0f294d;
+
+	
+}
+.markerTitle span.main {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.markerTitle span.sub {
+  font-size: 10px;
+}
+
+.markerTitle span {
+  line-height: 14px;
+  text-align: center;
+  text-shadow: #fff 1px 0, #fff 0 1px, #fff -1px 0, #fff 0 -1px;
+}
+
+
